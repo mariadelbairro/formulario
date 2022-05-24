@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+<h1>Formulário</h1>
+<form action="" method="GET">
+<fieldset style="width: 400px;">
+    <legend>
+        Dados Pesoais
+    </legend>
+    <label for="id_nome">
+        Nome:
+        <input type="text" name="id_nome" style="width: 150px;">
+    </label><br> 
+    <label for="id_data">
+        Data de Nascimento:
+        <input type="date" name="id_data" style="width: 100px;">
+    </label><br>
+    <label for="id_email">
+        E-mail:
+        <input type="email" name="id_email" style="width: 150px;">
+    </label><br>
+    <label for="id_telefone">
+        Telefone:
+        <input type="number" name="id_telefone" style="width: 150px;">
+    </label><br>  
+</fieldset>
+
+<fieldset style="width: 400px;">
+    <legend>
+        Dados Acadêmicos
+    </legend>
+    <label for="id_carros"> Curso:
+        <select id="id_carros" name="carros">
+            <option value="ADS">ADS</option>
+            <option value="GTI">GTI</option>
+            <option value="TBD">TBD</option>
+            <option value="TSI">TSI</option>
+          </select>
+    </label><br> 
+    <label for="id_semestre">
+        Semestre:
+        <input type="radio" id="id_semestre" name="semestre_um" value="um">1°
+        <input type="radio" id="id_semestre" name="semestre_um" value="dois">2°
+        <input type="radio" id="id_semestre" name="semestre_um" value="tres">3°
+        <input type="radio" id="id_semestre" name="semestre_um" value="quatro">4°
+        <input type="radio" id="id_semestre" name="semestre_um" value="cinco">5°
+    </label><br>
+</fieldset>
+
+<fieldset style="width: 400px;">
+    <label for="id_trabalho">
+        Trabalha? 
+        <input type="checkbox" id="id_trabalho" name="trabalho" value="job">
+    </label><br>
+    <label for="id_nome">
+        Local do Trabalho:
+        <input type="text" name="id_nome" style="width: 150px;">
+    </label><br> 
+    <label for="id_nome">
+        Descreva sua experiência:
+        <textarea name="descricao" rows="10" cols="30">
+        </textarea>
+    </label><br> 
+</fieldset>
+<button type="submit" name="enviar">Enviar</button>
+<button type="reset" name="limpar">Limpar</button>
+</form>
+</body>
+</html>
